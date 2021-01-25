@@ -1,16 +1,5 @@
-/*@font-face {
-    font-family: Pompadur; 
-    src: url("../fonts/Montserrat-Medium.ttf"); 
-}
-@font-face {
-    font-family: Pompadur-light; 
-    src: url("../fonts/Montserrat-Light.ttf"); 
-}
-@font-face {
-    font-family: Rasa-Bold;
-    src: url("../fonts/Rasa-Bold.ttf");
-}*/
 body{
-    /*font-family: Pompadur-light !important;*/
     font-family: 'Montserrat', sans-serif !important;
+    margin: 0;
+    padding: 0;
 }

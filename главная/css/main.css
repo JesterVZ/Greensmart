@@ -92,13 +92,16 @@ button{
     left: -41px;
 }
 .delivery-button{
-    padding: 6px 38px 6px 65px;
+    padding: 6px 38px 6px 40px;
     background: rgba(206, 195, 195, 0.2);
     border-radius: 5px;
     color: #fff;
     height: 30px;
     font-size: 13px;
     line-height: 18px;
+}
+.delivery-button span{
+    margin-left: 11px;
 }
 .person-block, .packet-block, .price-block{
     margin-left: 24px;
@@ -134,7 +137,7 @@ button{
     display: flex;
 }
 /*banner*/
-.banner-image{
+/*.banner-image{
     display: inline-block;
 }
 .image-banner{
@@ -180,7 +183,59 @@ button{
 .banner-arrow-button-right{
     background: url("../img/banner_white_arrow.png") no-repeat no-repeat 50% 50% #ED6E1E;;
     border-radius: 0px 5px 5px 0px;
+}*/
+.banner-image{
+    width: 150%;
+    max-width: 858px;
+    height: 295px;
+    background-image: url("../img/banner-image.png");
 }
+.banner-image-text{
+    display: inline-block;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 75px;
+}
+.banner-image-logo{
+    margin-top: 3px;
+}
+.scroll-list-block{
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    margin-bottom: 1px;
+    height: 48px;
+    padding-left: 14px;
+}
+.banner-scroll{
+    height: 295px;
+    width: 40%;
+    overflow: overlay;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #DDD9D9;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #429F3A;
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 /*banner description*/
 .banner-description{
     margin-top: 5px;
@@ -205,6 +260,10 @@ button{
     background: url("../img/arrows/white_right_arrows.png") no-repeat no-repeat 50% 50%#ED6E1E;
     border-radius: 0px 5px 5px 0px;
 }
+.document-arrow-button{
+    width: 40px;
+    height: 35px;
+}
 .header-buttons{
     display: flex;
     margin-left: auto;
@@ -216,4 +275,38 @@ button{
     font-size: 24px;
     line-height: 18px;
     font-weight: 400;
+}
+.slide{
+    width: 250px;
+    height: 381px;
+}
+.slide-photo{
+    height: 234px;
+}
+.slide-descr{
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid #DEDEDE;
+    padding-left: 12px;
+}
+.slide-descr-title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 14px;
+    margin-bottom: 7px;
+}
+.slide-descr-seller{
+    font-size: 12px;
+    line-height: 18px;
+    color: #89817F;
+    margin-bottom: 29px;
+}
+#milk{
+    background-image: url("../img/milk.png");
+}
+.rating{
+    display: flex;
+}
+.star{
+    margin-right: 3px;
 }
