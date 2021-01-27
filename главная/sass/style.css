@@ -165,11 +165,16 @@ button {
   width: 24px;
   height: 24px;
   top: calc(50% - 12px);
-  background: url("../img/Arrow.png") no-repeat no-repeat 50% 50% #429F3A;
 }
 
 .left-button {
   margin-right: 21px;
+  background: url("../img/svg/left-arrow.svg") no-repeat no-repeat 50% 50% #429F3A;
+}
+
+.right-button {
+  margin-left: auto;
+  background: url("../img/svg/right-arrow.svg") no-repeat no-repeat 50% 50% #429F3A;
 }
 
 .row-categories-items {
@@ -285,10 +290,11 @@ button {
   margin-left: auto;
 }
 
-.most-popular-header {
+.slider-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 17px;
 }
 
 .header-title {
@@ -297,11 +303,10 @@ button {
   font-weight: 400;
 }
 
-.product-cards {
+.slider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 17px;
 }
 
 .slide {
@@ -326,6 +331,7 @@ button {
   border: 1px solid #DEDEDE;
   padding-left: 12px;
   max-width: 248px;
+  height: 146px;
 }
 
 .slide-descr-title {
@@ -361,6 +367,22 @@ button {
 
 #oil {
   background-image: url("../img/oil.png");
+}
+
+#duck {
+  background-image: url("../img/duck_meat.png");
+}
+
+#chicken {
+  background-image: url("../img/chicken_soup.png");
+}
+
+#tomat-b {
+  background-image: url("../img/baku_tomatos.png");
+}
+
+#beef {
+  background-image: url("../img/ground_beef.png");
 }
 
 .rating {
@@ -433,12 +455,6 @@ button {
   margin-right: 21px;
 }
 
-.recipes .recipes-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .recipes .slide-image {
   width: 100%;
 }
@@ -446,6 +462,42 @@ button {
 .recipes .recipes-image {
   height: 381px;
   background-image: url("../img/rabbits.png");
+}
+
+.recipes .recipes-image .recipes-image-bottom {
+  margin-top: 267px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.recipes .recipes-image .recipes-image-bottom .recipes-image-ingredients {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 5px;
+  padding: 14px 8px 14px 24px;
+}
+
+.recipes .recipes-image .recipes-image-bottom .recipes-image-ingredients button {
+  background: none;
+}
+
+.recipes .recipes-image .recipes-image-bottom .recipes-image-button {
+  display: inline-block;
+  margin-left: 22px;
+}
+
+.recipes .recipes-image .recipes-image-bottom .recipes-image-button button {
+  border-radius: 5px;
+  padding: 10px 11px 10px 16px;
+  color: #fff;
+  background-color: #429F3A;
+}
+
+.red_price {
+  color: #FC1F1C !important;
 }
 
 .ZOZH {
@@ -456,5 +508,33 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.new-products-block {
+  margin-top: 50px;
+}
+
+.old-price {
+  position: relative;
+  font-size: 13px;
+  color: #000;
+  font-weight: normal;
+  width: 43px;
+}
+
+.old-price:before {
+  content: "";
+  border-bottom: 2px solid rgba(252, 31, 28, 0.7);
+  position: absolute;
+  top: 1px;
+  width: 90%;
+  height: 50%;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+.discounted-price {
+  position: relative;
+  bottom: 19px;
 }
 /*# sourceMappingURL=style.css.map */

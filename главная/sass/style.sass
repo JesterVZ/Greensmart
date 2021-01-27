@@ -100,9 +100,12 @@ button
     width: 24px
     height: 24px
     top: calc(50% - 12px)
-    background: url("../img/Arrow.png") no-repeat no-repeat 50% 50% $green
 .left-button
     margin-right: 21px
+    background: url("../img/svg/left-arrow.svg") no-repeat no-repeat 50% 50% $green
+.right-button
+    margin-left: auto
+    background: url("../img/svg/right-arrow.svg") no-repeat no-repeat 50% 50% $green
 .row-categories-items
     display: block
 .slick-slide
@@ -170,15 +173,15 @@ button
 .header-buttons
     display: flex
     margin-left: auto
-.most-popular-header
+.slider-header
     display: flex
+    margin-bottom: 17px
 .header-title
     font-size: 24px
     line-height: 18px
     font-weight: 400
-.product-cards
+.slider
     display: flex
-    margin-top: 17px
 .slide
     width: 250px
     height: 381px
@@ -195,6 +198,7 @@ button
     border: 1px solid #DEDEDE
     padding-left: 12px
     max-width: 248px
+    height: 146px
 .slide-descr-title
     font-weight: 600
     font-size: 14px
@@ -216,6 +220,14 @@ button
     background-image: url("../img/eggs.png")
 #oil
     background-image: url("../img/oil.png")
+#duck
+    background-image: url("../img/duck_meat.png")
+#chicken
+    background-image: url("../img/chicken_soup.png")
+#tomat-b
+    background-image: url("../img/baku_tomatos.png")
+#beef
+    background-image: url("../img/ground_beef.png")
 .rating
     display: flex
     margin-bottom: 13px
@@ -258,14 +270,54 @@ button
 .recipes
     width: 50%
     margin-right: 21px
-    .recipes-header
-        display: flex
     .slide-image
         width: 100%
     .recipes-image
         height: 381px
         background-image: url("../img/rabbits.png")
+        .recipes-image-bottom
+            margin-top: 267px
+            display: inline-block
+            width: 100%
+            text-align: center
+            .recipes-image-ingredients
+                display: inline-block
+                background: rgba(255, 255, 255, 0.2)
+                backdrop-filter: blur(12px)
+                border-radius: 5px
+                padding: 14px 8px 14px 24px
+                button
+                    background: none
+            .recipes-image-button
+                display: inline-block
+                margin-left: 22px
+                button
+                    border-radius: 5px
+                    padding: 10px 11px 10px 16px
+                    color: #fff
+                    background-color: $green
+.red_price
+    color: #FC1F1C !important
 .ZOZH
     width: 50%
     .ZOZH-header
         display: flex
+.new-products-block
+    margin-top: 50px
+.old-price
+    position: relative
+    font-size: 13px
+    color: #000
+    font-weight: normal
+    width: 43px
+    &:before
+        content: ""
+        border-bottom: 2px solid rgba(252, 31, 28, 0.7)
+        position: absolute
+        top: 1px
+        width: 90%
+        height: 50%
+        transform: rotate(-5deg)
+.discounted-price
+    position: relative
+    bottom: 19px
