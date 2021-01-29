@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -12,103 +13,109 @@
 </head>
 <body>
     <div class="header">
-        <div class="container">
-            <div class="header-desktop">
-                <div class="header-logo">
-                    <div class="logo">
-                        <img src="img/IMG_3872 2.png" alt="логотип">
-                        <div class="logo-text">
-                            Greensmart
+        <div class="header-desktop">
+            <div class="container">
+                <div class="header-desktop">
+                    <div class="header-logo">
+                        <div class="logo">
+                            <img src="img/IMG_3872 2.png" alt="логотип">
+                            <div class="logo-text">
+                                Greensmart
+                                <span>
+                                    Для здорового питания
+                                </span>
+                            </div>
+                        </div>
+                        <div class="delivery">
+                            <div>
+                                Ближайшая доставка 
+                            </div>
+                            <span> 27 декабря</span>
+                        </div>
+                        <div class="links">
+                            <div class="menu-link">
+                                <a href="">Акции</a>
+                            </div>
+                            <div class="menu-link">
+                                <a href="">Greensmart Prime</a>
+                            </div>
+                            <div class="menu-link last-link">
+                                <a href="">О доставке</a>
+                            </div>
+                        </div>
+            
+                    </div>
+                    <div class="header-search-menu">
+                        <img src="img/svg/hamburger.svg" alt="" class="hamburger-image">
+                        <div class="header-catalog">Каталог продуктов</div>
+                        <input type="text" class="search-input" placeholder="Поиск по товарам, рецептам и статьям">
+                        <div class="search-block">
+                            <img src="img/search-icon.png" alt="" class="search-icon">
+                        </div>
+                        <button class="delivery-button">
+                            <img src="img/svg/location.svg" alt="">
                             <span>
-                                Для здорового питания
+                                Куда доставить?
                             </span>
+                        </button>
+                        <div class="person-block">
+                            <img src="img/svg/person.svg" alt="">
                         </div>
-                    </div>
-                    <div class="delivery">
-                        <div>
-                            Ближайшая доставка 
+                        <div class="packet-block">
+                            <img src="img/svg/backet.svg" alt="">
                         </div>
-                        <span> 27 декабря</span>
-                    </div>
-                    <div class="links">
-                        <div class="menu-link">
-                            <a href="">Акции</a>
+                        <div class="price-block">
+                            0 ₽
                         </div>
-                        <div class="menu-link">
-                            <a href="">Greensmart Prime</a>
-                        </div>
-                        <div class="menu-link last-link">
-                            <a href="">О доставке</a>
-                        </div>
-                    </div>
-        
-                </div>
-                <div class="header-search-menu">
-                    <img src="img/svg/hamburger.svg" alt="" class="hamburger-image">
-                    <div class="header-catalog">Каталог товаров</div>
-                    <input type="text" class="search-input" placeholder="Поиск по товарам, рецептам и статьям">
-                    <div class="search-block">
-                        <img src="img/search-icon.png" alt="" class="search-icon">
-                    </div>
-                    <button class="delivery-button">
-                        <img src="img/svg/location.svg" alt="">
-                        <span>
-                            Куда доставить?
-                        </span>
-                    </button>
-                    <div class="person-block">
-                        <img src="img/svg/person.svg" alt="">
-                    </div>
-                    <div class="packet-block">
-                        <img src="img/svg/backet.svg" alt="">
-                    </div>
-                    <div class="price-block">
-                        0 ₽
                     </div>
                 </div>
+    
             </div>
-
+        </div>
+        <div class="header-mobile">
+            
         </div>
     </div>
+
     <div class="row-categories">
         <div class="container flex-container">
             <button class="categories-btn left-button">
             </button>
             <div class="row-categories-items">
-                <div class="slick-slide slick-cloned">
+                <div class="slick-slide item-selected">
                     <a href="">Молоко</a>
                 </div>
-                <div class="slick-slide slick-cloned">
+                <div class="slick-slide item-selected">
                     <a href="">Хлеб</a>
                 </div>
-                <div class="slick-slide slick-cloned">
+                <div class="slick-slide item-selected">
                     <a href="">Мясо и Птица</a>
                 </div>
-                <div class="slick-slide slick-cloned">
+                <div class="slick-slide ">
                     <a href="">Сыр</a>
                 </div>
-                <div class="slick-slide slick-cloned">
+                <div class="slick-slide ">
                     <a href="">Овощи</a>
                 </div>
-                <div class="slick-slide slick-cloned">
+                <div class="slick-slide ">
                     <a href="">Масло</a>
                 </div>
-                <div class="slick-slide slick-cloned">
+                <div class="slick-slide ">
                     <a href="">Картофель</a>
                 </div>
-                <div class="slick-slide slick-cloned">
+                <div class="slick-slide ">
                     <a href="">Яйца</a>
                 </div>
-                <div class="slick-slide slick-cloned">
+                <div class="slick-slide ">
                     <a href="">Сладости</a>
                 </div>
-                <div class="slick-slide slick-cloned">
+                <div class="slick-slide ">
                     <a href="">Творог</a>
                 </div>
-                <div class="slick-slide slick-cloned">
+                <div class="slick-slide ">
                     <a href="">Кефир</a>
                 </div>
-                <div class="slick-slide slick-cloned">
+                <div class="slick-slide ">
                     <a href="">Вода</a>
                 </div>
             </div>
@@ -128,7 +135,10 @@
                             <img src="img/svg/product_basket.svg" alt="">
                         </div>
                 </div>
-
+                <div class="header-buttons banner-buttons">
+                    <button class="document-arrow-button document-arrow-button-left banner-left"></button>
+                    <button class="document-arrow-button document-arrow-button-right banner-right"></button>
+                </div>
             </div>
             <div class="banner-scroll">
                 <div class="scroll-list-block">
@@ -183,7 +193,7 @@
         </div>
 
     </div>
-    <div class="products-block">
+    <div class="products-block most-popular">
         <div class="container">
             <div class="slider-header">
                 <div class="header-title">
@@ -936,20 +946,20 @@
                 </div>
                 <div class="question-slide">
                     <div class="question-slide-text">
-                        Когда у вас<br>
-                        ближайшая доставка?
+                        Что значит<br>
+                        «график доставки?»
                     </div>
                 </div>
                 <div class="question-slide">
                     <div class="question-slide-text">
-                        Когда у вас<br>
-                        ближайшая доставка?
+                        Чем ваши продукты<br> 
+                        отличаются от других?
                     </div>
                 </div>
                 <div class="question-slide last-slide">
                     <div class="question-slide-text">
-                        Когда у вас<br>
-                        ближайшая доставка?
+                        Кто ваши<br>
+                        производители?
                     </div>
                 </div>
             </div>
@@ -987,38 +997,152 @@
                 <div class="provider-slide">
                     <div class="provider-slide-header">
                         <div class="provider-slide-header-avatar">
-                            <img src="img/evgeniy roshal.png" alt="">
+                            <img src="img/yuri leishan.png" alt="">
                         </div>
                         <div class="provider-slide-header-description">
-                            <div class="provide-slide-header-name">Евгений Рошаль</div>
-                            <div class="provide-slide-header-specialization">Поставщик птицы и яиц</div>
+                            <div class="provide-slide-header-name">Юрий Лейшан</div>
+                            <div class="provide-slide-header-specialization">Поставщик овощей</div>
                         </div>
 
                     </div>
                     <div class="provider-slide-images">
-                        <img src="img/duck_meat.png" alt="">
-                        <img src="img/chicken_soup.png" alt="">
+                        <img src="img/radish.png" alt="">
+                        <img src="img/cucumber.png" alt="">
                     </div>
                 </div>
                 <div class="provider-slide last-slide">
                     <div class="provider-slide-header">
                         <div class="provider-slide-header-avatar">
-                            <img src="img/evgeniy roshal.png" alt="">
+                            <img src="img/vasiliy zaicev.png" alt="">
                         </div>
                         <div class="provider-slide-header-description">
-                            <div class="provide-slide-header-name">Евгений Рошаль</div>
-                            <div class="provide-slide-header-specialization">Поставщик птицы и яиц</div>
+                            <div class="provide-slide-header-name">Василий Зайцев</div>
+                            <div class="provide-slide-header-specialization">поставщик хлеба и яиц</div>
                         </div>
 
                     </div>
                     <div class="provider-slide-images">
-                        <img src="img/duck_meat.png" alt="">
-                        <img src="img/chicken_soup.png" alt="">
+                        <img src="img/bread.png" alt="">
+                        <img src="img/eggs.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
 
+    </div>
+    <div class="about-company">
+        <div class="container">
+            <div class="about-company-content">
+                <div class="about-company-contenr-text">
+                    <span>«Greensmart»</span> — это онлайн сервис доставки здоровых натуральных продуктов с честным составом и коротким сроком хранения.<br>
+                    Мы объединили производителей и покупателей, а также, сократили путь,  для того, чтобы каждый день на вашем столе были <br>
+                    только свежие продукты, о которых можно узнать полную историю происхождения всего в 1 клик.<br>
+                </div>
+
+                <div class="text-header">
+                    Заказ продуктов на дом
+                </div>
+                <div class="about-company-contenr-text">
+                    Вы можете заказать натуральные продукты без минимальной суммы заказа, а мы всегда доставим бесплатно, даже если это всего <br>
+                    одна бутылка молока. Теперь нет необходимости закупаться впрок, достаточно указать в графике доставки любимого продукта, <br>
+                    день недели и нужное количество. С этого момента, у вас дома всегда будут только свежие и ароматные продукты.<br>
+                </div>
+                <div class="text-header">
+                    С грядки на стол
+                </div>
+                <div class="about-company-contenr-text">
+                    Все продукты изготавливаются для вас под заказ. Когда вы, указываете в графике доставки нужное количество продукта и 
+                    день его доставки, производители видят эту информацию и в день доставки подготавлявают продукты: самые свежие, вкусные.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-image"></div>
+        <div class="footer-body">
+
+            <div class="footer-content">
+                <div class="footer-content-header">
+                    Помощь покупателю
+                </div>
+                <div class="content-text">
+                    Доставка и оплата
+                </div>
+                <div class="content-text">
+                    График доставки
+                </div>
+                <div class="content-text">
+                    Вопросы и ответы
+                </div>
+                <div class="content-text">
+                    Возврат продукции
+                </div>
+                <div class="content-text">
+                    Рецепты
+                </div>
+                <div class="content-text">
+                    Отзывы
+                </div>
+            </div>
+            <div class="footer-content">
+                <div class="footer-content-header">
+                    О компании
+                </div>
+                <div class="content-text">
+                    О нас
+                </div>
+                <div class="content-text">
+                    Качество
+                </div>
+                <div class="content-text">
+                    Контакты
+                </div>
+                <div class="content-text">
+                    <img src="img/svg/AppStore.svg" alt="">
+                </div>
+                <div class="content-text">
+                    <img src="img/svg/GooglePlay.svg" alt="">
+                </div>
+            </div>
+            <div class="footer-content">
+                <div class="footer-content-header">
+                    Партнеры
+                </div>
+                <div class="content-text">
+                    Наши фермеры
+                </div>
+                <div class="content-text">
+                    Анкета поставщика
+                </div>
+                <div class="content-payment">
+                    <img src="img/svg/visa.svg" alt="">
+                    <img src="img/svg/mir.svg" alt="">
+                </div>
+            </div>
+            <div class="footer-content">
+                <div class="footer-content-header">
+                    Помощь покупателю
+                </div>
+                <div class="content-text">
+                    Доставка и оплата
+                </div>
+                <div class="content-text">
+                    График доставки
+                </div>
+                <div class="content-text">
+                    Вопросы и ответы
+                </div>
+                <div class="content-text">
+                    Возврат продукции
+                </div>
+                <div class="content-text">
+                    Рецепты
+                </div>
+                <div class="content-text">
+                    Отзывы
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

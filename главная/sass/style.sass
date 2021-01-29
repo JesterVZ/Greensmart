@@ -3,6 +3,8 @@ $search-menu-color: #043e44
 $track-color: #DDD9D9
 $orange: #ED6E1E
 $white-button: #ECEBEB
+.most-popular
+    margin-top: 21px !important
 a
     text-decoration: none !important
     color: #000 !important
@@ -28,7 +30,7 @@ button
     display: flex
     font-size: 14px
     margin-left: 87px
-.header
+.header-desktop
     margin: auto
 .container
     max-width: 1096px !important
@@ -47,11 +49,11 @@ button
     margin-bottom: 17px
     .search-input
         display: flex
-        margin-left: 24px
+        margin-left: 22px
         width: 405px
         height: 41px
         border: none
-        border-radius: 5px
+        border-radius: 11px
         padding: 11px 44px 12px 22px
     .search-icon
         position: relative
@@ -74,15 +76,18 @@ button
         font-size: 13px
         line-height: 18px
         span
-            margin-left: 11px
+            margin-left: 6px
 .person-block, .packet-block, .price-block
-    margin-left: 24px
+    margin-left: 23px
 .person-block, .packet-block
     img
         height: 24px
 .row-categories
     display: flex
     margin-bottom: 17px
+.item-selected
+    a
+        color: $orange !important
 .menu-link
     display: flex
     align-items: center
@@ -110,7 +115,7 @@ button
     display: block
 .slick-slide
     display: inline-block
-    margin-right: 22px
+    margin-right: 25px
     font-size: 14px
 .flex-container
     display: flex
@@ -126,10 +131,11 @@ button
     color: #fff
     font-weight: 600
     text-align: center
-    margin-left: 450px
-    margin-top: 75px
+    margin-left: 509px
+    margin-top: 85px
 .banner-image-logo
-    margin-top: 3px
+    margin-top: 17px
+    margin-left: 12px
 .scroll-list-block
     display: flex
     align-items: center
@@ -137,9 +143,10 @@ button
     margin-bottom: 1px
     height: 48px
     padding-left: 14px
+    font-size: 14px
 .banner-scroll
     height: 295px
-    width: 40%
+    width: 36%
     overflow: overlay
 ::-webkit-scrollbar
     width: 4px
@@ -164,6 +171,8 @@ button
 .document-arrow-button-left
     background: url("../img/arrows/white_left_arrow.png") no-repeat no-repeat 50% 50% $white-button
     border-radius: 5px 0px 0px 5px
+.banner-left
+    background: url("../img/banner_back_arrow.png") no-repeat no-repeat 50% 50% $white-button
 .document-arrow-button-right
     background: url("../img/arrows/white_right_arrows.png") no-repeat no-repeat 50% 50% $orange
     border-radius: 0px 5px 5px 0px
@@ -173,6 +182,11 @@ button
 .header-buttons
     display: flex
     margin-left: auto
+.banner-buttons
+    float: right
+    position: relative
+    top: 245px
+    right: 7px
 .slider-header
     display: flex
     margin-bottom: 17px
@@ -400,3 +414,48 @@ button
         height: 144px
 .provider-slide-header-avatar, .provider-slide-header-description
     display: inline-block
+.about-company
+    margin-top: 57px
+.about-company-content
+    background: #F9F9F9
+    border-radius: 10px
+    padding: 39px 95px 39px 18px
+.about-company-contenr-text
+    font-size: 14px
+    line-height: 24px
+    color: #444444
+    span
+        font-weight: 500
+.text-header
+    margin-top: 20px
+    margin-bottom: 12px
+    font-weight: 500
+    font-size: 15px
+    line-height: 24px
+    color: #444444
+.footer
+    height: 602px
+.footer-image
+    background-image: url("../img/farm.png")
+    height: 158px
+    position: relative
+    top: 22px
+.footer-body
+    background-color: #4D9221
+    height: 473px
+    display: flex
+.footer-content
+    margin-left: 108px
+    margin-top: 78px
+.footer-content-header
+    font-weight: 600
+    font-size: 18px
+    line-height: 20px
+    color: #fff
+    margin-bottom: 24px
+.content-text
+    font-weight: 500
+    font-size: 15px
+    line-height: 20px
+    color: #fff
+    margin-bottom: 17px
