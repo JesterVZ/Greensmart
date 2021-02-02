@@ -1,5 +1,17 @@
 @media(max-width: 1080px){
-    .header-desktop{
-        display: none
+    .header-desktop, .banner-desktop, .row-categories, .banner-description, .products-block-desktop, .search-mobile{
+        display: none;
+    }
+    .header-mobile{
+        display: flex;
+        height: 60px;
+    }
+    .banner-mobile, .video-mobile, .search-mobile{
+        display: block;
+    }
+}
+@media(min-width: 1080px){
+    .header-mobile, .banner-mobile, .search-mobile, .video-mobile{
+        display: none;
     }
 }
