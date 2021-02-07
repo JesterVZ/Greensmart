@@ -1412,7 +1412,7 @@ button {
   display: -ms-flexbox;
   display: flex;
   left: 13px;
-  top: 237px;
+  top: 731px;
 }
 
 .page-item {
@@ -1455,5 +1455,116 @@ button {
 .provider-slide:hover {
   -webkit-box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-main-menu {
+  position: relative;
+  z-index: 5;
+}
+
+.mobile-main-menu-header {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #EFEDED;
+}
+
+.mobile-main-menu-header .logo-img {
+  height: 45px;
+}
+
+.main-menu-close-btn {
+  background: transparent;
+  outline: none;
+  position: absolute;
+  top: 13px;
+  left: 14px;
+}
+
+.backet-main-menu-block {
+  position: absolute;
+  right: 20px;
+  top: 11px;
+}
+
+.mobile-main-menu-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 51px;
+  border-bottom: 1px solid #EFEDED;
+}
+
+.mobile-main-menu-buttons button {
+  width: 50%;
+  border-right: 1px solid #EFEDED;
+  background: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+}
+
+.mobile-main-menu-buttons .button-last {
+  border: none;
+}
+
+.main-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  padding-left: 20px;
+}
+
+.main-menu-list button {
+  background: transparent;
+}
+
+.menu-list-text {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+}
+
+.list-arrow {
+  margin-left: auto;
+  margin-right: 21px;
+}
+
+.menu-block {
+  padding-top: 16px;
+}
+
+.mobile-main-menu-lists {
+  border-bottom: 1px solid #EFEDED;
+}
+
+.mobile-menu-item {
+  padding-left: 60px;
+  margin-bottom: 31px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+}
+
+.mobile-main-menu-items {
+  margin-top: 22px;
+}
+
+.count-of-products-mob {
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #444444;
 }
 /*# sourceMappingURL=style.css.map */
