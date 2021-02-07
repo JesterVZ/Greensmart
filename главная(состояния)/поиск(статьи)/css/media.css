@@ -6,7 +6,7 @@
         display: flex;
         height: 60px;
     }
-    .banner-mobile, .video-mobile, .search-mobile, .products-block-mobile, .video-mobile, .mobile-delivery-button, .footer-mobile{
+    .banner-mobile, .video-mobile, .search-mobile, .products-block-mobile, .video-mobile, .mobile-delivery-button, .footer-mobile, .search-mobile-list{
         display: block;
     }
     .buttons-mobile, .banner-description-mobile{
@@ -17,7 +17,7 @@
     }
 }
 @media(min-width: 1080px){
-    .header-mobile, .banner-mobile, .search-mobile, .video-mobile, .products-block-mobile, .buttons-mobile, .banner-description-mobile, .mobile-delivery-button, .footer-mobile{
+    .header-mobile, .banner-mobile, .search-mobile, .video-mobile, .products-block-mobile, .buttons-mobile, .banner-description-mobile, .mobile-delivery-button, .footer-mobile, .search-mobile-list{
         display: none;
     }
 }

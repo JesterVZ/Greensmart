@@ -667,16 +667,14 @@ button
         margin-left: 20px
         margin-bottom: 19px
     .video-block-element
+        position: relative
         display: flex
         height: 251px
         align-items: center
         justify-content: center
-        background-image: url("../img/preview.png")
-        margin-left: 20px
-        margin-right: 20px
+        background-image: url("../img/video_play.png")
         background-repeat: no-repeat
         background-size: cover
-        border-radius: 8px
         .video-block-play-button
             img
                 word-wrap: 100px
@@ -932,6 +930,10 @@ button
     height: 61px
     position: relative
     bottom: 7px
+.video-block-element-player-mobile
+    width: 100%
+    height: 37px
+
 .player-time-line
     width: 100%
     border-radius: 5px
@@ -968,6 +970,13 @@ button
 .player-container
     margin-left: 25px
     margin-right: 25px
+.player-container-mobile
+    margin-left: 9px
+    margin-right: 9px
+    .player-time-line
+        position: relative
+        top: 87px
+        height: 3px
 .player-video-time
     font-size: 16px
     line-height: 20px
@@ -977,3 +986,59 @@ button
     display: flex
 .player-time-full
     margin-left: auto
+.video-buttons
+    margin-left: auto
+    button
+        margin-right: 2px
+.close-btn
+    position: absolute
+    top: 0
+    right: 0
+    width: 36px
+    height: 36px
+    background: rgba(0, 0, 0, 0.49)
+    border-radius: 0px 14px 0px 3px
+    img
+        position: relative
+        right: 3px
+        top: 2px
+.close-btn-mobile
+    position: absolute
+    top: 0
+    right: 0
+    width: 34px
+    height: 35px
+    background: rgba(0, 0, 0, 0.49)
+    border-radius: 0px 0px 0px 3px
+    img
+        position: relative
+        right: 3px
+.player-buttons-mobile
+    display: flex
+    position: relative
+    top: 10px
+    button
+        background: transparent
+        margin-right: 18px
+.volume-block-mobile
+    display: flex
+    align-items: center
+.volume-line-mobile
+    position: relative
+    left: 8px
+    width: 61px
+    height: 6px
+    background: rgba(255, 255, 255, 0.2)
+    border-radius: 4px
+    .volume-bar
+        height: 100%
+        background: #FFFFFF
+        border-radius: 4px
+        width: 41px
+.video-buttons-mobile
+    display: flex
+    position: absolute
+    right: 0
+    top: 11px
+    button
+        background: transparent

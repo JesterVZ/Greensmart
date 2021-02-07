@@ -1,5 +1,5 @@
 @media(max-width: 1080px){
-    .header-desktop, .banner-desktop, .row-categories, .banner-description, .products-block-desktop, .footer{
+    .header-desktop, .banner-desktop, .row-categories, .banner-description, .products-block-desktop, .footer, .darkness{
         display: none;
     }
     .header-mobile{
