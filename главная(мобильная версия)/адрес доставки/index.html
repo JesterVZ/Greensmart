@@ -78,23 +78,41 @@
                     <img src="img/svg/back-arrow.svg" alt="">
                 </button>
                 <div class="mobile-input-text">
-                    Вход и регистрация
+                    Добавить адрес
                 </div>
                 <button class="catalog-close-btn">
                     <img src="img/svg/mobile-close-header.svg" alt="">
                 </button>
             </div>
-            <div class="mobile-input-body">
-                <div class="input-body-container">
-                    <div class="mubile-input-body-header">
-                        Чтобы сохранять корзину, редактировать график доставки, оплачивать покупки бонусами
+            <div class="mobile-add-address-body">
+                <div class="address-container">
+                    <div class="add-adress-input">
+                        <img src="img/svg/search-green.svg" alt="">
+                        <input type="text" placeholder="Введите адрес">
                     </div>
-                    <input type="tel" class="mobile-input-body-input" placeholder="+7">
-                    <button class="input-get-code">
-                        Получить код в СМС
-                    </button>
+                    <div class="add-adress-inputs">
+                        <div class="inputs-item" id="inputs-item-1">
+                            <input type="text" placeholder="Дом">
+                            <input type="text" placeholder="Строение">
+                            <input type="text" placeholder="Этаж">
+                        </div>
+                        <div class="inputs-item" id="inputs-item-2">
+                            <input type="text" placeholder="Корпус">
+                            <input type="text" placeholder="Подъезд">
+                            <input type="text" placeholder="Кв/офис">
+                        </div>
+                    </div>
+                    <div class="add-address-checkboxes">
+                        <div class="checkbox-block">
+                            <input type="checkbox" class="custom-checkbox" id="delivery" name="delivery" value="yes">
+                            <label for="delivery">Бесконтактная доставка</label>
+                        </div>
+                        <div class="checkbox-block">
+                            <input type="checkbox" class="custom-checkbox" id="entry" name="entry" value="yes">
+                            <label for="entry">Требуется разрешение на въезд</label>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
