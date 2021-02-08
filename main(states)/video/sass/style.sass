@@ -350,12 +350,14 @@ button
 .video-block
     margin-top: 50px
     .video-block-element
+        position: relative
+        z-index: 2
         display: flex
-        align-items: center
+        align-items: flex-end
         justify-content: center
         width: 100%
-        height: 370px
-        background-image: url("../img/preview.png")
+        height: 548px
+        background-image: url("../img/video_play.png")
         margin-top: 26px
 .recipes
     width: 50%
@@ -665,16 +667,14 @@ button
         margin-left: 20px
         margin-bottom: 19px
     .video-block-element
+        position: relative
         display: flex
         height: 251px
         align-items: center
         justify-content: center
-        background-image: url("../img/preview.png")
-        margin-left: 20px
-        margin-right: 20px
+        background-image: url("../img/video_play.png")
         background-repeat: no-repeat
         background-size: cover
-        border-radius: 8px
         .video-block-play-button
             img
                 word-wrap: 100px
@@ -919,21 +919,126 @@ button
     margin-left: 7px
 .page-item-selected
     background-color: #EC6E1E
-.most-popular:hover
-    .header-title
-        color: $green
-.slick-slide
-    a:hover
-        color: $green !important
-.slide-descr-backet:hover
-    background-color: #2B6725
-    cursor: pointer
-.case-slide-inscription:hover
-    color: $green !important
-    cursor: pointer
-.question-slide:hover
-    .question-slide-text
-        color: $green !important
-        cursor: pointer
-.provider-slide:hover
-    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.1)
+.darkness
+    position: absolute
+    width: 100%
+    height: 5107px
+    background: rgba(0, 0, 0, 0.33)
+    z-index: 1
+.video-block-element-player
+    width: 100%
+    height: 61px
+    position: relative
+    bottom: 7px
+.video-block-element-player-mobile
+    width: 100%
+    height: 37px
+
+.player-time-line
+    width: 100%
+    border-radius: 5px
+    background: rgba(255, 255, 255, 0.2)
+    height: 7px
+.player-time-line-bar
+    height: 100%
+    width: 218px
+    background: #FF0000
+    border-radius: 5px
+.volume-line
+    background: rgba(255, 255, 255, 0.2)
+    border-radius: 4px
+    width: 69px
+    height: 6px
+    margin-left: 15px
+    position: relative
+    top: 10px
+    .volume-bar
+        height: 100%
+        width: 28px
+        background-color: #fff
+        border-radius: 4px
+.player-time-line-buttons
+    display: flex
+    margin-top: 12px
+    margin-left: 3px
+    button
+        border: 0
+        background-color: transparent
+        margin-right: 20px
+.volume-block
+    display: flex
+.player-container
+    margin-left: 25px
+    margin-right: 25px
+.player-container-mobile
+    margin-left: 9px
+    margin-right: 9px
+    .player-time-line
+        position: relative
+        top: 87px
+        height: 3px
+.player-video-time
+    font-size: 16px
+    line-height: 20px
+    color: #fff
+    position: relative
+    bottom: 43px
+    display: flex
+.player-time-full
+    margin-left: auto
+.video-buttons
+    margin-left: auto
+    button
+        margin-right: 2px
+.close-btn
+    position: absolute
+    top: 0
+    right: 0
+    width: 36px
+    height: 36px
+    background: rgba(0, 0, 0, 0.49)
+    border-radius: 0px 14px 0px 3px
+    img
+        position: relative
+        right: 3px
+        top: 2px
+.close-btn-mobile
+    position: absolute
+    top: 0
+    right: 0
+    width: 34px
+    height: 35px
+    background: rgba(0, 0, 0, 0.49)
+    border-radius: 0px 0px 0px 3px
+    img
+        position: relative
+        right: 3px
+.player-buttons-mobile
+    display: flex
+    position: relative
+    top: 10px
+    button
+        background: transparent
+        margin-right: 18px
+.volume-block-mobile
+    display: flex
+    align-items: center
+.volume-line-mobile
+    position: relative
+    left: 8px
+    width: 61px
+    height: 6px
+    background: rgba(255, 255, 255, 0.2)
+    border-radius: 4px
+    .volume-bar
+        height: 100%
+        background: #FFFFFF
+        border-radius: 4px
+        width: 41px
+.video-buttons-mobile
+    display: flex
+    position: absolute
+    right: 0
+    top: 11px
+    button
+        background: transparent

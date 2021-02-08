@@ -58,6 +58,7 @@ button
 .mobile-person-block
     margin-right: 26px
 .header-search-menu
+    position: relative
     display: flex
     justify-content: flex-start
     align-items: center
@@ -919,21 +920,54 @@ button
     margin-left: 7px
 .page-item-selected
     background-color: #EC6E1E
-.most-popular:hover
-    .header-title
-        color: $green
-.slick-slide
-    a:hover
-        color: $green !important
-.slide-descr-backet:hover
-    background-color: #2B6725
-    cursor: pointer
-.case-slide-inscription:hover
-    color: $green !important
-    cursor: pointer
-.question-slide:hover
-    .question-slide-text
-        color: $green !important
-        cursor: pointer
-.provider-slide:hover
-    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.1)
+.login-form
+    position: absolute
+    right: 0
+    top: 55px
+    width: 400px
+    height: 391px
+    background-color: #fff
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08)
+    border-radius: 10px
+    z-index: 1
+    padding: 40px 0px 31px 28px
+.login-form-header
+    font-weight: 600
+    font-size: 20px
+    line-height: 18px
+    color: #043E44
+    margin-bottom: 23px
+.login-form-descr
+    font-size: 14px
+    line-height: 18px
+    color: #808285
+    margin-bottom: 8px
+.login-form-item
+    font-size: 14px
+    line-height: 21px
+    color: #444444
+    margin-bottom: 5px
+    div
+        display: inline-block
+        position: relative
+        left: 18px
+        top: 12px
+
+.login-button
+    width: 304px
+    height: 50px
+    background: #429F3A
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08)
+    font-weight: 500
+    font-size: 15px
+    line-height: 18px
+    border-radius: 5px
+    color: #fff
+    position: relative
+    top: 30px
+    left: 18px
+.login-close-btn
+    background: transparent
+    position: absolute
+    right: 19px
+    top: 17px

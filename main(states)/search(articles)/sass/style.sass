@@ -66,6 +66,7 @@ button
     color: #fff
     padding: 4px 4px 4px 14px
     margin-bottom: 17px
+    position: relative
     .search-input
         display: flex
         margin-left: 24px
@@ -919,21 +920,229 @@ button
     margin-left: 7px
 .page-item-selected
     background-color: #EC6E1E
-.most-popular:hover
-    .header-title
-        color: $green
-.slick-slide
-    a:hover
-        color: $green !important
-.slide-descr-backet:hover
-    background-color: #2B6725
-    cursor: pointer
-.case-slide-inscription:hover
-    color: $green !important
-    cursor: pointer
-.question-slide:hover
-    .question-slide-text
-        color: $green !important
-        cursor: pointer
-.provider-slide:hover
+.search-panel
+    position: relative
     box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.1)
+    border-radius: 8px
+    padding: 31px 28px 0px 186px
+.search-panel-section
+    position: absolute
+    top: 15px
+    right: 198px
+.panel-section-header
+    margin-right: 22px
+    font-weight: 500
+    font-size: 14px
+    line-height: 18px
+    color: #535151
+.panel-section-body
+    width: 536px
+    font-size: 14px
+    line-height: 18px
+    border-bottom: 1px solid  #DEDEDE
+    padding-bottom: 40px
+.panel-section-body-item
+    margin-bottom: 15px
+.panel-section-category
+    .category-item
+        font-weight: 500
+        font-size: 14px
+        line-height: 18px
+        margin-bottom: 17px
+        width: 80px
+        padding-left: 9px
+.recipes-panel
+    width: 571px
+    height: 83px
+    border-bottom: 1px solid #DEDEDE
+    margin-bottom: 37px
+.category-item-selected
+    color: $green
+    border-left: 3px solid $orange
+    height: 30px
+    padding-top: 8px
+.search-close-btn
+    position: absolute
+    right: 0
+    top: 0
+    border: none
+    background: transparent
+.search-body-text
+    display: inline-block
+.recipes-panel-header
+    display: inline-block
+    font-size: 14px
+    line-height: 18px
+    position: relative
+    bottom: 17px
+    left: 18px
+    span
+        color: #429F3A
+.recipes-panel-body
+    display: flex
+    position: relative
+    bottom: 18px
+    left: 75px
+.recipes-panel-body-rating
+    img
+        margin-right: 3px
+.recipes-panel-comments
+    font-size: 14px
+    line-height: 20px
+    color: #9B9A9A
+    margin-left: 13px
+    position: relative
+    top: 3px
+.recipes-panel-viewers
+    font-size: 14px
+    color: #9B9A9A
+    position: relative
+    img
+        margin-right: 10px
+.recipes-panel-view-link
+    font-size: 14px
+    color: #ED6E1E
+    margin-left: 83px
+    position: absolute
+    right: 91px
+    top: 2px
+.recipes-panel-theme
+    display: flex
+    margin-left: 18px
+    font-size: 14px
+    line-height: 20px
+    color: #9B9A9A
+.theme-block
+    font-weight: 500
+    font-size: 14px
+    line-height: 20px
+    color: #043E44
+    margin-left: 14px
+.search-mobile-list-input
+    position: relative
+    display: flex
+    height: 54px
+    input
+        height: 100%
+        width: 100%
+        border: none
+        border-right: 1px solid #EFEDED
+        padding-left: 18px
+        font-size: 14px
+        line-height: 18px
+        color: #444444
+    .close-btn
+        background: transparent
+        font-size: 14px
+        line-height: 18px
+        color: #ED6E1E
+        position: relative
+.search-close-btn
+    position: absolute
+    top: 10px
+    right: 10px
+    background: transparent
+.button-mobile-list-caregory
+    display: flex
+    height: 37px
+    align-items: center
+    justify-content: center
+    box-shadow: 0 4px 8px -2px #b1b1b15b
+.mobile-category-item
+    margin-right: 21%
+    font-weight: 500
+    font-size: 14px
+    line-height: 18px
+    color: #8A8382
+.mobile-category-item-last
+    margin: 0px
+.mobile-category-item-selected
+    color: $green
+.result-item-header
+    font-size: 14px
+    line-height: 18px
+    span
+        color: $green
+.result-item-rating
+    display: flex
+    position: relative
+    top: 7px
+    right: 2px
+    img
+        margin-right: 7px
+.search-mobile-list-results-item
+    display: flex
+    height: 103px
+    align-items: center
+    padding-left: 20px
+    padding-right: 20px
+    border-bottom: 1px solid #DEDEDE
+.item-block
+    position: relative
+    display: flex
+    width: 100%
+    img
+        position: relative
+        bottom: 1px
+.item-block-text
+    display: inline-block
+    position: relative
+    top: -3px
+    left: 12px
+.add-basket-button
+    background: #429F3A
+    border-radius: 3px
+    width: 60px
+    height: 30px
+    margin-left: 20px
+.item-info
+    display: flex
+    margin-left: auto
+.search-mobile-item-price
+    position: relative
+    top: 5px
+    font-weight: bold
+.show-full-button
+    width: 100%
+    height: 56px
+    background: #429F3A
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08)
+    border-radius: 5px
+    font-weight: 500
+    font-size: 16px
+    line-height: 18px
+    color: #fff
+.slow-full-button-block
+    text-align: center
+    padding: 25px 20px
+.item-block-descr
+    position: absolute
+    left: 76px
+    top: 38px
+    font-size: 14px
+    line-height: 20px
+    color: #9B9A9A
+    display: flex
+    img
+        position: relative
+        top: 0px
+        right: 12px
+.descr-viewers
+    display: flex
+.descr-comments
+    position: relative
+    right: 28px
+.viewers-value
+    position: relative
+    right: 4px
+.descr-theme
+    position: relative
+    left: 19px
+.descr-show-link
+    position: absolute
+    right: 0
+    top: 32px
+    a
+        font-size: 14px
+        line-height: 20px
+        color: #ED6E1E !important
