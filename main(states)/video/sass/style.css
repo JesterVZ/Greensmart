@@ -1065,7 +1065,7 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("../img/video_play.png");
+  background-image: url("../img/Cover.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1268,8 +1268,8 @@ button {
 }
 
 .mobile-delivery-button {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 63px;
+  margin-right: 63px;
   margin-top: 44px;
 }
 
@@ -1437,6 +1437,11 @@ button {
   z-index: 1;
 }
 
+.button-mobile-text {
+  position: relative;
+  bottom: 7px;
+}
+
 .video-block-element-player {
   width: 100%;
   height: 61px;
@@ -1566,8 +1571,11 @@ button {
 }
 
 .close-btn-mobile img {
-  position: relative;
-  right: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-47%, -50%);
+          transform: translate(-47%, -50%);
 }
 
 .player-buttons-mobile {
@@ -1590,6 +1598,10 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.item-image {
+  height: 28px;
 }
 
 .volume-line-mobile {

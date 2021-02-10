@@ -1584,6 +1584,10 @@ button {
   background: transparent;
 }
 
+.search-close-btn-mobile {
+  right: 72px;
+}
+
 .button-mobile-list-caregory {
   display: -webkit-box;
   display: -ms-flexbox;

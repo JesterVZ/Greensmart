@@ -1605,6 +1605,15 @@ button {
   background: transparent;
 }
 
+.search-close-btn-mobile {
+  right: 72px;
+}
+
+.category-item-second {
+  position: relative;
+  top: 3px;
+}
+
 .button-mobile-list-caregory {
   display: -webkit-box;
   display: -ms-flexbox;

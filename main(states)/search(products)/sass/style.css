@@ -1534,6 +1534,10 @@ button {
   background: transparent;
 }
 
+.search-close-btn-mobile {
+  right: 72px;
+}
+
 .button-mobile-list-caregory {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1605,6 +1609,15 @@ button {
   width: 60px;
   height: 30px;
   margin-left: 20px;
+  position: relative;
+}
+
+.add-basket-button img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .item-info {

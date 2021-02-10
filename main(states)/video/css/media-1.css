@@ -21,3 +21,34 @@
         display: none;
     }
 }
+@media(max-width: 380px){
+
+    @supports (-webkit-touch-callout: none) {
+        .video-buttons-mobile button, .player-buttons-mobile button{
+            padding: 0px 10px 0px 10px !important;
+            margin: 0 !important;
+        }
+    }
+    @supports not (-webkit-touch-callout: none) {
+        .player-buttons-mobile button{
+            margin-right: 7px;
+        }
+    }
+
+}
+
+/*@media(max-width: 380px){
+    .player-buttons-mobile button{
+        margin-right: 8px !important;
+
+    }
+    .pause-btn{
+        width: 30px !important;
+    }
+    .pause-btn img{
+        width: 100%;
+    }
+    .volume-line-mobile{
+        width: 46px;
+    }
+}*/

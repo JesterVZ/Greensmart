@@ -198,6 +198,11 @@ button {
   top: 7px;
 }
 
+.button-mobile-text {
+  position: relative;
+  bottom: 7px;
+}
+
 .last-link {
   border: none !important;
 }
@@ -1270,8 +1275,8 @@ button {
 }
 
 .mobile-delivery-button {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 63px;
+  margin-right: 63px;
   margin-top: 44px;
 }
 
@@ -1286,6 +1291,10 @@ button {
   font-size: 14px;
   position: relative;
   bottom: 16px;
+}
+
+.item-image {
+  height: 28px;
 }
 
 .footer-image-mobile {

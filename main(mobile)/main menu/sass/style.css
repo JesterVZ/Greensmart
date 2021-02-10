@@ -1510,6 +1510,12 @@ button {
   color: #444444;
 }
 
+.mobile-main-menu-buttons button img {
+  position: relative;
+  right: 12px;
+  bottom: 2px;
+}
+
 .mobile-main-menu-buttons .button-last {
   border: none;
 }
@@ -1566,5 +1572,20 @@ button {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #444444;
+}
+
+.mobile-menu-input-button {
+  padding-right: 44px;
+}
+
+.mobile-menu-input-button img {
+  position: relative !important;
+  right: 17px !important;
+  bottom: 2px !important;
+}
+
+.menu-list-text-last {
+  position: relative;
+  left: 3px;
 }
 /*# sourceMappingURL=style.css.map */

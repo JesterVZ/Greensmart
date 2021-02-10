@@ -21,3 +21,17 @@
         display: none;
     }
 }
+@media(max-width: 600px){
+
+    @supports (-webkit-touch-callout: none) {
+        .back-arrow-button{
+            margin-left: 4px;
+        }
+    }
+    @supports not (-webkit-touch-callout: none) {
+        .back-arrow-button{
+            margin-left: 15px;
+        }
+    }
+
+}
