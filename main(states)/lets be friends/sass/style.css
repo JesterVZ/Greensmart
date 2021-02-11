@@ -203,6 +203,11 @@ button {
   border: none !important;
 }
 
+.button-mobile-text {
+  position: relative;
+  bottom: 7px;
+}
+
 .categories-btn {
   border-radius: 5px;
   width: 24px;
@@ -1269,8 +1274,8 @@ button {
 }
 
 .mobile-delivery-button {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 63px;
+  margin-right: 63px;
   margin-top: 44px;
 }
 
@@ -1291,7 +1296,11 @@ button {
   background-image: url("../img/farm-mobile.png");
   height: 71px;
   position: relative;
-  top: 10px;
+  top: 12px;
+}
+
+.item-image {
+  height: 28px;
 }
 
 .footer-body-mobile {

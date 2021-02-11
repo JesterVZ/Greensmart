@@ -1268,9 +1268,13 @@ button {
   color: #043E44;
 }
 
+.item-image {
+  height: 28px;
+}
+
 .mobile-delivery-button {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 63px;
+  margin-right: 63px;
   margin-top: 44px;
 }
 
@@ -1291,7 +1295,7 @@ button {
   background-image: url("../img/farm-mobile.png");
   height: 71px;
   position: relative;
-  top: 10px;
+  top: 12px;
 }
 
 .footer-body-mobile {
@@ -1492,6 +1496,11 @@ button {
   border: 1px solid #dedede;
   border-right: none;
   background: #fff;
+}
+
+.button-mobile-text {
+  position: relative;
+  bottom: 7px;
 }
 
 .slide-descr-count-of-products {

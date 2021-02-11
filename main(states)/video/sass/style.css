@@ -1290,7 +1290,7 @@ button {
   background-image: url("../img/farm-mobile.png");
   height: 71px;
   position: relative;
-  top: 10px;
+  top: 12px;
 }
 
 .footer-body-mobile {
@@ -1574,8 +1574,8 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-47%, -50%);
-          transform: translate(-47%, -50%);
+  -webkit-transform: translate(-49%, -43%);
+          transform: translate(-49%, -43%);
 }
 
 .player-buttons-mobile {
@@ -1583,7 +1583,7 @@ button {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  top: 10px;
+  top: 13px;
 }
 
 .player-buttons-mobile button {
@@ -1626,7 +1626,7 @@ button {
   display: flex;
   position: absolute;
   right: 0;
-  top: 11px;
+  top: 14px;
 }
 
 .video-buttons-mobile button {
