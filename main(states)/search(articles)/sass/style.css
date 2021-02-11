@@ -24,6 +24,10 @@ button {
 .logo img {
   vertical-align: bottom !important;
   margin-bottom: 10px;
+  top: 3px;
+  right: 2px;
+  width: 27px;
+  position: relative;
 }
 
 .logo-text {
@@ -78,6 +82,13 @@ button {
 .mobile-logo {
   display: -webkit-box;
   margin-left: 12px;
+}
+
+.mobile-logo .mobile-logo-image {
+  width: 23px;
+  margin-left: 3px;
+  position: relative;
+  top: 5px;
 }
 
 .mobile-images-links {
